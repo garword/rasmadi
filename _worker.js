@@ -3,12 +3,12 @@ import { connect } from "cloudflare:sockets";
 // import { Buffer } from "node:buffer";
 
 // Variables
-const rootDomain = "gesaleiloiga-5825.workers.dev"; // Ganti dengan domain utama kalian
-const serviceName = "nautica"; // Ganti dengan nama workers kalian
-const apiKey = "hgi61xU8OXhdr8FdlJdon9tHjls0WK6dcTfAM5m3"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const rootDomain = "preugassumatto-6668.workers.dev"; // Ganti dengan domain utama kalian
+const serviceName = "rasmadi"; // Ganti dengan nama workers kalian
+const apiKey = "gSwSuxYSzzq4MDnE8jhLQMGoLMrok4Evk-d9AapX"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = "c5241a545a2247e0a52ae6852a541539"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = "c799c7a0dba00af657c2e142a6b924d7"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const accountID = "ed830ca7f2b8452e26890a6103b4f513"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "a7f97a4d1761c4bc896fcc47e9dc52f2"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
